@@ -1,0 +1,4 @@
+
+# add new column to "users" table 
+ALTER TABLE users ADD [COLUMN] utype  varchar(100)  FIRST  ulink ;
+ALTER TABLE users ADD [COLUMN] utype  varchar(100)  AFTER  ulink ;
