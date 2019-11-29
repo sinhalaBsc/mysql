@@ -2,3 +2,8 @@
 # add new column to "users" table 
 ALTER TABLE users ADD [COLUMN] utype  varchar(100)  FIRST  ulink ;
 ALTER TABLE users ADD [COLUMN] utype  varchar(100)  AFTER  ulink ;
+
+
+# update table
+UPDATE table_name SET field1 = new-value1, field2 = new-value2
+[WHERE Clause]
